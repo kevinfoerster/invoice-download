@@ -1,0 +1,25 @@
+{
+	"name": "invoice-download",
+	"version": "0.1.0",
+	"description": "Download invoice for german services",
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"author": "Karl Ludwig Weise <office@ludwigweise.de>",
+	"contributors": [
+		{
+			"name": "Karl Ludwig Weise",
+			"email": "office@ludwigweise.de"
+		}
+	],
+	"private": true,
+	"license": "none",
+	"dependencies": {
+		"keychain": "^1.3.0",
+		"selenium-webdriver": "^3.0.0-beta-3",
+		"webdriverio": "^4.10.2"
+	},
+	"devDependencies": {},
+	"scripts": {}
+}
