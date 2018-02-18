@@ -3,4 +3,4 @@ node_modules/
 *.iml
 src/user/
 tmp/
-user-data/
+user-data/*.json

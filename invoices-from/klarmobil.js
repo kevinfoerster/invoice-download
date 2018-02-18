@@ -2,13 +2,13 @@
 	Load settings
  */
 
-const configPath = '../user-data/config.json';
+const configPath = './user-data/config.json';
 const fs = require('fs');
 if (!fs.existsSync(configPath)) {
 	console.error('\x1b[31m%s\x1b[37m', 'Error: Run setup before running download');
 	return;
 }
-const config = require(configPath);
+const config = require(`.${configPath}`);
 const service = process.mainModule.filename.match(/([^\/]*)\/*$/)[1].replace('.js', '');
 let user = config.services[service] || null;
 
